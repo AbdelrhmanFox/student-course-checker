@@ -39,7 +39,7 @@ function search() {
               <p>👤 <strong>Name:</strong> ${data.name}</p>
               <p>📚 <strong>Course:</strong> ${data.course}</p>
               <p>📚 <strong>Course ID:</strong> ${data.year}</p>
-              ${data.room ? `<p>🎓 <strong>Room:</strong> ${data.room}</p>` : ''}
+              ${data.room ? `<p>🎓 <strong>Room:</strong> ${data.room}</p>` : ''} 
             </div>
           </div>
         `;
