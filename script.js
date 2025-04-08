@@ -19,7 +19,7 @@ function search() {
   resultDiv.innerHTML = '';
   
   // Fetch data
-  fetch("https://script.google.com/macros/s/AKfycbwu4jbHAej1_Kn6zSKtuAxgDLexj5MIq_5g5mDaoFhQznlRR8FXwIsat9-pGn_44oXdTg/exec?id=" + id)
+  fetch("https://script.google.com/macros/s/AKfycbwftgcZJcH-40KmjPmwQn7xihzj2Y-JfrhuRly0PHYzfDppmtip8CRPvoobjXNYIeQsuw/exec?id=" + id)
     .then(res => {
       if (!res.ok) throw new Error('Network response was not ok');
       return res.json();
