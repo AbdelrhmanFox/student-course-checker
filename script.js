@@ -38,8 +38,8 @@ function search() {
               <p>📝 <strong>ID:</strong> ${id}</p>
               <p>👤 <strong>Name:</strong> ${data.name}</p>
               <p>📚 <strong>Course:</strong> ${data.course}</p>
-              <p>📚 <strong>Room:</strong> ${data.room}</p>
-              ${data.year ? `<p>🎓 <strong>Course ID:</strong> ${data.year}</p>` : ''}
+              <p>📚 <strong>Course ID:</strong> ${data.year}</p>
+              ${data.year ? `<p>🎓 <strong>Room:</strong> ${data.room}</p>` : ''}
             </div>
           </div>
         `;
